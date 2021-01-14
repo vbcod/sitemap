@@ -1,0 +1,16 @@
+{
+    "name": "vbcod/sitemapxml",
+    "type": "library",
+    "authors": [
+        {
+            "name": "vitaliy bondarenko",
+            "email": "bovile17051992@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Vbcod\\Sitemap\\": "src"
+        }
+    }
+}
