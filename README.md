@@ -38,7 +38,7 @@ class MyConcretSitemapOne extends MyDefaultSitemap{
     }
 }
 
-$sitemap = new MySitemap();
+$sitemap = new MyConcretSitemapOne();
 $xml     = $sitemap->render($sitemap::RENDER_FORMAT_XML);
 
 header("Content-type: text/xml");
