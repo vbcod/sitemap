@@ -1,6 +1,7 @@
 {
     "name": "vbcod/sitemap",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "vitaliy bondarenko",
