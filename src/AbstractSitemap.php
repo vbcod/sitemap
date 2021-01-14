@@ -99,11 +99,25 @@ abstract class AbstractSitemap
     public function preCompileUrls()
     {
         //extend it
+        /*
+
+        $this->urlsPrefix = "/eng";
+
+        */
     }
 
     public function generateUrls()
     {
-        //extend it
+        //extend it. example:
+        /*
+        $url = new Url();
+
+        $url->setLoc('/home/');
+        $url->setChangefreq($url::CHANGE_FREQ_MONTHLY);
+        $url->setPriority(0.5);
+
+        $this->addUrl($url);
+        */
     }
 
     public function addUrl(Url $url)
